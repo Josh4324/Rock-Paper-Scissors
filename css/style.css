@@ -1,0 +1,549 @@
+body {
+    background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%)) !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pick {
+    color: white;
+    font-weight: bolder;
+}
+
+.iblock {
+    display: flex;
+}
+
+.iblock1 {
+    display: inline-block;
+    text-align: left;
+}
+
+.iblock2 {
+    display: inline-block;
+    text-align: right;
+    background-color: white;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.score {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: hsl(229, 25%, 31%);
+}
+
+.off {
+    display: none;
+}
+
+.header {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.score-text {
+    color: hsl(229, 64%, 46%);
+}
+
+.headc {
+    padding: 10px;
+}
+
+.rps {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 10px;
+    height: 100px;
+    background-color: rgb(17, 14, 59);
+    transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+}
+
+.line1 {
+    width: 10px;
+    height: 100px;
+    background-color: rgb(17, 14, 59);
+    transform: rotate(150deg);
+    display: inline-block;
+    bottom: 80px;
+    z-index: -1;
+    position: relative;
+}
+
+.line2 {
+    width: 10px;
+    height: 100px;
+    background-color: rgb(17, 14, 59);
+    transform: rotate(30deg);
+    display: inline-block;
+    z-index: -1;
+    position: relative;
+    bottom: 80px;
+
+}
+
+
+.shape {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.step2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rule {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.icon {
+    padding: 25px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon1 {
+    padding: 30px;
+}
+
+
+
+
+.icon-paper {
+    border: 10px solid hsl(230, 89%, 62%);
+    margin-right: 15px;
+    transform: perspective(500px) rotateX(20deg);
+    width: 50px;
+    height: 50px;
+}
+
+
+.icon-scissors {
+    border: 10px solid hsl(39, 89%, 49%);
+    margin-left: 15px;
+    transform: perspective(500px) rotateX(20deg);
+    width: 50px;
+    height: 50px;
+}
+
+.icon-rock {
+    border: 10px solid hsl(349, 71%, 52%);
+    margin-top: 20px;
+    transform: perspective(500px) rotateX(20deg);
+    width: 50px;
+    height: 50px;
+}
+
+.icon-rule1 {
+    border: 10px solid gray;
+    margin-right: 15px;
+}
+
+
+.icon-rule2 {
+    border: 10px solid gray;
+    margin-left: 15px;
+}
+
+
+.icon-rule3 {
+    border: 10px solid gray;
+    margin-top: 20px;
+}
+
+.attribution {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.but {
+    position: absolute;
+    right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    bottom: 100px;
+}
+
+.play {
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.playw {
+    color: blue;
+}
+
+.playl {
+    color: red;
+}
+
+
+
+.gt {
+    position: relative;
+    bottom: 40px;
+}
+
+.arrow1 {
+    font-size: 100px;
+    color: gray;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
+
+.arrow2 {
+    font-size: 100px;
+    color: gray;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+}
+
+.arrow3 {
+    font-size: 100px;
+    color: gray;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+}
+
+.dir {
+    display: inline-block;
+}
+
+.b1 {
+    position: relative;
+    right: 50px;
+}
+
+.b2 {
+    position: relative;
+    left: 50px;
+}
+
+.rul {
+    text-align: left !important;
+    display: inline-block;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+}
+
+.close {
+    font-size: 50px;
+    color: gray;
+    position: relative;
+    left: 150px;
+    display: inline-block;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.modal {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    margin: auto;
+    top: 10px;
+    left: auto;
+    right: auto;
+}
+
+.lose {
+    font-size: 30px;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+}
+
+.win {
+    font-size: 30px;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%)) !important;
+}
+
+@media (max-width:575px) {
+    .header {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid hsl(217, 16%, 45%);
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .shape {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .step2 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .gt {
+        position: absolute;
+        top: 400px;
+        left: 35%;
+        right: auto;
+    }
+
+    .rule {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 50px;
+        background-color: white;
+    }
+
+    .rul {
+        text-align: left !important;
+        display: inline-block;
+        position: relative;
+        right: 0px;
+        bottom: 20px;
+    }
+
+    .arrow1 {
+        font-size: 70px;
+    }
+
+    .arrow2 {
+        font-size: 70px;
+    }
+
+    .arrow3 {
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+
+    .close {
+        top: 350px;
+        display: inline-block;
+        left: -10px
+    }
+
+
+
+    .but {
+        float: none;
+        position: absolute;
+        bottom: 100px;
+        left: 40%;
+        right: auto;
+    }
+
+
+}
+
+@media (max-width:360px) {
+    .icon {
+
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .close {
+        top: 320px;
+    }
+
+    .pick {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:320px) {
+    .arrow1 {
+        font-size: 50px;
+    }
+
+    .icon {
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .icon1 {
+        padding-bottom: 10px;
+    }
+
+    .gt {
+        position: absolute;
+        top: 350px;
+        left: 30%;
+        right: auto;
+    }
+
+    .but {
+        bottom: 80px;
+        left: 35%;
+    }
+
+    .close {
+        top: 300px;
+    }
+
+    .b {
+        padding-bottom: 10px;
+    }
+
+    .b1 {
+        right: 20px;
+    }
+
+    .b2 {
+        left: 20px;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .but {
+        bottom: 50px;
+    }
+
+    .shape {
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+
+    .icon {
+        padding-bottom: 20px;
+    }
+
+    .gt {
+        top: 335px;
+        left: 30%;
+    }
+
+    .lose {
+        font-size: 20px;
+    }
+
+    .win {
+        font-size: 20px;
+    }
+
+}
+
+@media (width: 320px) and (-webkit-device-pixel-ratio: 3) {
+    .but {
+        bottom: 50px;
+    }
+
+    .shape {
+        margin-bottom: 150px;
+    }
+
+    .gt {
+        top: 400px;
+    }
+
+    .pick {
+        padding-bottom: 20px;
+    }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+    .but {
+        bottom: 80px;
+    }
+
+    .gt {
+        top: 325px;
+        left: 30%;
+    }
+
+    .shape {
+        margin-bottom: 300px;
+    }
+
+    .step2 {
+        margin-top: 30px;
+    }
+}
+
+@media (width: 360px) and (-webkit-device-pixel-ratio: 3) {
+    .but {
+        bottom: 80px;
+        left: 35%;
+    }
+
+    .gt {
+        top: 360px;
+        left: 30%;
+    }
+
+
+}

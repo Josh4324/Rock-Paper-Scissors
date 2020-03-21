@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+ 
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <div class="container">
+      <div class="header">
+        <div class="headc">
+          <div class="iblock iblock1">
+            <span class="block rps">Rock</span>
+            <span class="block rps">Paper</span>
+            <span class="block rps">Scissors</spanclass="block">
+          </div>
+          <div class="iblock iblock2">
+            <span class="block score-text">score</span>
+            <span class="block score">0</span>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="shape">
+        <div>
+            <img  class="icon icon-paper" src="images/icon-paper.svg" alt="">
+          <div class="line"></div>
+          <img class="icon icon-scissors" src="images/icon-scissors.svg" alt="">
+        </div>
+
+       
+        <div>
+          <div class="line1"></div>
+          <img class="icon icon-rock" src="images/icon-rock.svg" alt="">
+          <div class="line2"></div>
+        </div>
+        
+        
+      </div>
+
+      <div>
+        <div class="step2 off">
+          <div class="inline-block">
+            <p class="pick">You Picked</p>
+            <img class="icon icon-paper" src="images/icon-paper.svg" alt="">
+          </div>
+
+          <div class="inline-block gt ">
+            <div class="playt">
+              <p class="lose off">You Lose</p>
+              <p class="win off">You Win</p>
+            </div>
+            
+            <button class="play off">Play Again</button>
+          </div>
+          
+
+          <div class="inline-block">
+            <p class="pick">The House Picked</p>
+            <img class="icon icon-scissors" src="images/icon-scissors.svg" alt="">
+          </div>
+         
+         
+        </div>
+      </div>
+
+      <div class="modal off">
+    
+        <div class="rule">
+          <div class="rul">Rules</div>
+          <div class="close">&times;</div>
+          <div>
+            <img class="icon icon-rule1" src="images/icon-paper.svg" alt="">
+            <div class="dir">
+              <p class="b">Beats</p>
+              <div class="arrow1">&#8592;</div>
+            </div>
+            
+            <img class="icon icon-rule2" src="images/icon-scissors.svg" alt="">
+          </div>
+    
+         
+          <div>
+            <div class="dir">
+              <p class="b1">Beats</p>
+              <div class=arrow2>&#8600;</div>
+            </div>
+            
+            <img class="icon icon-rule3" src="images/icon-rock.svg" alt="">
+            <div class="dir">
+              <p class="b2">Beats</p>
+              <div class="arrow3">&#8599;</div>
+            </div>
+            
+          </div>
+          
+          
+        </div>
+    
+  </div>
+  
+  <button class="but">Rules</button>
+
+  
+
+  </div>
+  
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Joshua Adesanya</a>.
+    </div>
+  </footer>
+
+  
+  <script src="/js/app.js"></script>
+</body>
+</html>
