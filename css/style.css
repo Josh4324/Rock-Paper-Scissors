@@ -328,6 +328,13 @@ body {
     color: white;
 }
 
+.draw {
+    font-size: 30px;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+}
+
 
 
 .footer {
@@ -511,6 +518,10 @@ body {
     }
 
     .win {
+        font-size: 20px;
+    }
+
+    .draw {
         font-size: 20px;
     }
 
